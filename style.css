@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img { 
+    width: 100%;
+    padding: 10px;
+}
+
+.card{
+    border: 1px solid black;
+    width: 300px;
+    text-align: center;
+}
+
+.card p{
+    height: 20px;
+    background-color: beige;
+    padding-left: 10px;
+   width: 80%;
+   margin: 10px auto;
+   text-align: left;
+}
+
+button {
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(104, 196, 104);
+    height: 30px;
+    margin-top: 10px;
+    width: 90%;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(40, 125, 64);
+    color: white;
+}
+
+#clear{
+    text-align: center;
+    width: 100px;
+    margin-left: 530px;
+}
